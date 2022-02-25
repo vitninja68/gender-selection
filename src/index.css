@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+.card:hover {
+  box-shadow: 2px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+.btn-pink {
+  background-color: #ff007d !important;
+}
+.back {
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.next {
+  text-align: center !important;
+  height: 50px !important;
+  font-size: 20px !important;
+  /* margin-top: 600 px !important; */
+  margin-left: 42px;
+}
+.male {
+  width: 114.88px;
+  height: 168.06px;
+  position: absolute;
+  left: 27.51%;
+  right: 56.16%;
+  top: 12.07%;
+}
+.female {
+  width: 115px;
+  height: 171px;
+  position: absolute;
+  left: 27.51%;
+  right: 56.16%;
+  top: 12.07%;
+}
+
+.pink-shadow {
+  box-shadow: 1px 1px 3px 3px rgba(255, 125, 190, 1) !important;
+}
+.card {
+  width: 260px !important;
+  height: 280px !important;
+}
+.male-card {
+  position: absolute;
+  left: 50.51%;
+  right: 56.16%;
+}
+*/ .female-card {
+  /* margin-top: 50px;
+  /* margin-bottom: 150px; */
+  /* margin-left: 30px;
+  margin-right: 703px;  */
+  position: absolute;
+  left: 56.52%;
+  right: 35.15%;
+  top: 36.39%;
+}
