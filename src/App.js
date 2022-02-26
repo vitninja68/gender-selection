@@ -5,7 +5,6 @@ import female from "./photos/female.png";
 import back from "./photos/back button.png";
 function App() {
   const [gender, genderFunction] = useState("");
-  const [disabled, disableFunction] = useState(true);
   const [MaleOutline, MaleOutlineFunction] = useState(
     "card text-center  male-card"
   );
@@ -32,7 +31,7 @@ function App() {
               className={MaleOutline}
               onClick={() => {
                 genderFunction("Male");
-                disableFunction(false);
+                
                 MaleOutlineFunction("card text-center  pink-shadow male-card");
                 FeOutlineFunction("card text-center female-card ");
               }}
@@ -48,7 +47,7 @@ function App() {
               className={FeOutline}
               onClick={() => {
                 genderFunction("Female");
-                disableFunction(false);
+               
                 FeOutlineFunction("card text-center female-card pink-shadow");
                 MaleOutlineFunction("card text-center male-card");
               }}
@@ -65,7 +64,7 @@ function App() {
       <div className="App">
         <button
           className="btn btn-pink next"
-          disabled={disabled}
+          disabled={gender ===""}
           onClick={
             gender === "Female" || gender === "Male"
               ? () => {
